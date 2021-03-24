@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+106
+"PAYSOFT V1.0 - Maker: Sen Kun Liang Zeng
+Description: this software calculate the invoice to 4 products"
+4
+1
+19
+"Type the products"
+5
+1
+2
+P1
+5
+1
+2
+P2
+5
+1
+2
+P3
+5
+1
+2
+P4
+7
+0
+1
+40
+P1 <= 0 OR P2 <= 0 OR P3 <= 0 OR P4 <= 0
+6
+3
+6
+SUMPRO
+11
+P1+P2+P3+P4
+5
+IVA19
+13
+SUMPRO * 0.19
+5
+TOTAL
+14
+SUMPRO + IVA19
+4
+1
+99
+"The Gross Value is: $" , SUMPRO , " the IVA  is value is: $" , IVA19 , "  the total is: $" , TOTAL
+13
+4
+1
+43
+"ERR: Some of the products are less than 0"
+13
+1

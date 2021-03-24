@@ -1,0 +1,53 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+188
+"NUMBEREVENORODDSOFT
+Maker: Sen Kun Liang Zeng
+This software tells you if the entire number you type is even or odd if you don´t type a entire number the program won't work successfully"
+4
+1
+22
+"please type a number"
+5
+1
+8
+v_number
+7
+0
+1
+10
+v_number=0
+6
+1
+9
+v_residue
+14
+v_number MOD 2
+7
+0
+1
+11
+v_residue=0
+4
+1
+25
+"The number typed is odd"
+13
+4
+1
+26
+"The number typed is even"
+13
+13
+4
+1
+50
+"The number typed is 0_it is neither even nor odd"
+13
+1

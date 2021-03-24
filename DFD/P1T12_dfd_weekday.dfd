@@ -1,0 +1,100 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+123
+"WEEKDAYSOFT - Maker: Sen Kun Liang Zeng - This software tells you the day of the week according to the number you entered"
+4
+1
+24
+"please type the number"
+5
+1
+5
+V_day
+7
+1
+1
+21
+v_day>=1 and v_day<=7
+7
+0
+1
+7
+v_day=1
+7
+0
+1
+7
+v_day=2
+7
+0
+1
+7
+v_day=3
+7
+0
+1
+7
+v_day=4
+7
+0
+1
+7
+v_day=5
+7
+0
+1
+7
+v_day=6
+4
+1
+49
+"the day according to the number typed is Sunday"
+13
+4
+1
+51
+"the day according to the number typed is Saturday"
+13
+13
+4
+1
+49
+"the day according to the number typed is Friday"
+13
+13
+4
+1
+51
+"the day according to the number typed is Thursday"
+13
+13
+4
+1
+52
+"the day according to the number typed is Wednesday"
+13
+13
+4
+1
+50
+"the day according to the number typed is Tuesday"
+13
+13
+4
+1
+49
+"the day according to the number typed is Monday"
+13
+13
+4
+1
+73
+"ERR: the number typed is not valid_please type a number between 1 and 7"
+13
+1

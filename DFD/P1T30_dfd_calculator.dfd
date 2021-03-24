@@ -1,0 +1,296 @@
+ Dfd (c)
+1
+1
+6
+0
+0
+4
+1
+123
+"SOFTCALCULATOR_V1.0 - Maker: Sen Kun Liang  Zeng  - This software emulates a basic calculator (sum - rest - mult - divi) "
+12
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+9
+1
+13
+V_OPTION != 0
+7
+0
+1
+12
+V_OPTION = 1
+7
+0
+1
+12
+V_OPTION = 2
+7
+0
+1
+12
+V_OPTION = 3
+12
+1
+10
+P_DIVISION
+0
+13
+12
+1
+10
+P_MULTIPLI
+0
+13
+13
+12
+1
+10
+P_SUBTRACT
+0
+13
+13
+12
+1
+5
+P_SUM
+0
+13
+12
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+11
+1
+2
+1
+5
+P_SUM
+0
+1
+55
+In this sub-program calculate the sum for many  numbers
+4
+1
+40
+"Type the total numbers do you want sum"
+5
+1
+15
+v_total_numbers
+6
+1
+5
+v_sum
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_numbers
+1
+1
+1
+4
+1
+21
+"Type the number ", i
+5
+1
+8
+v_number
+6
+1
+5
+v_sum
+14
+v_sum+v_number
+10
+4
+1
+26
+"The total sum is ", v_sum
+3
+2
+1
+15
+P_VALIDA_OPTION
+1
+8
+V_OPTION
+1
+57
+In this sup-program validate the option in the calculator
+4
+1
+88
+"Type your option: (1 -> sum ) - (2 -> rest ) - (3 -> multi) - (4 -> div) - (0 ->exit)" 
+5
+1
+8
+v_option
+9
+1
+86
+v_option != 1 AND v_option != 2 AND v_option != 3 AND v_option !=  4 AND v_option != 0
+4
+1
+54
+"ERR: your option dont exist - Type again your option"
+5
+1
+8
+v_option
+11
+3
+2
+1
+10
+P_SUBTRACT
+0
+1
+58
+In this sub-program calculate the subtract for two numbers
+4
+1
+25
+"Type the firsts number" 
+5
+1
+6
+v_num1
+4
+1
+24
+"Type the second number"
+5
+1
+6
+v_num2
+6
+1
+10
+v_subtract
+15
+v_num1 - v_num2
+4
+1
+30
+"The subtract is ", v_subtract
+3
+2
+1
+10
+P_MULTIPLI
+0
+1
+63
+In this sub-program realice the multiplication for many numbers
+4
+1
+51
+"Type the total numbers do you want multiplication"
+5
+1
+15
+v_total_numbers
+6
+1
+7
+v_multi
+1
+1
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_numbers
+1
+1
+1
+4
+1
+21
+"Type the number ", i
+5
+1
+8
+v_number
+6
+1
+7
+v_multi
+18
+v_multi * v_number
+10
+4
+1
+33
+"The multiplication is ", v_multi
+3
+2
+1
+10
+P_DIVISION
+0
+1
+51
+This sub-program calculate the division two numbers
+4
+1
+27
+"Type the numerator number"
+5
+1
+11
+v_numerator
+4
+1
+25
+"Type the divisor number"
+5
+1
+9
+v_divisor
+9
+1
+13
+v_divisor = 0
+4
+1
+87
+"ERR: the divisor number should be diferente from zero - Type again the divisor number"
+5
+1
+9
+v_divisor
+11
+6
+1
+10
+v_division
+23
+v_numerator / v_divisor
+4
+1
+30
+"The division is ", v_division
+3
